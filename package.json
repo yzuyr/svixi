@@ -1,5 +1,5 @@
 {
-  "name": "pixi.svelte",
+  "name": "svixi",
   "description": "Create 2D application with Pixi.js and Svelte.",
   "version": "0.0.1",
   "type": "module",
