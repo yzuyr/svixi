@@ -1,15 +1,14 @@
 {
   "name": "svixi",
   "description": "Create 2D application with Pixi.js and Svelte.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "import": "./dist/p.svelte"
     }
   },
   "scripts": {

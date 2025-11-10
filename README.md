@@ -9,7 +9,7 @@ Create 2D application with Pixi.js and Svelte.
   import { onMount } from "svelte";
   import { SvelteMap } from "svelte/reactivity";
   import * as Pixi from "pixi.js";
-  import { P } from "svixi";
+  import P from "svixi";
 
   let textures = $state<SvelteMap<string, Pixi.Texture>>(new SvelteMap());
   let appRef = $state<Pixi.Application>();
